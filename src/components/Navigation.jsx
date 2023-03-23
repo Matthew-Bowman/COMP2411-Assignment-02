@@ -2,7 +2,9 @@ import './Navigation.css'
 
 function Navigation() {
     return (
-        <div>Hello, world!</div>
+        <nav>
+            <NavigationItem icon="fa-cog" />
+        </nav>
     );
 }
 
